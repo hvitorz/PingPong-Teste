@@ -1,0 +1,55 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #2d2d2d;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+canvas {
+  border: 3px solid #fff;
+  background-color: #1e1e1e;
+  margin-bottom: 20px; /* Espaço para o botão */
+}
+
+.score {
+  position: absolute;
+  top: 20px;
+  font-size: 32px;
+  color: #fff;
+}
+
+#play-btn, #reset-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#reset-btn {
+  background-color: #f44336; /* Cor vermelha para o botão de reset */
+}
+
+#play-btn:hover, #reset-btn:hover {
+  background-color: #45a049;
+}
